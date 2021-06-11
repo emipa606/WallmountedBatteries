@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WMB.onsupport>Must be placed on a wall or rock.</WMB.onsupport>
+  <WMB.walkable>Must be facing a walkable tile.</WMB.walkable>
+  <WMB.existing>Identical building already exists.</WMB.existing>
+</LanguageData>
