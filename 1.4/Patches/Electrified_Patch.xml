@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/HediffDef[defName="AG_Electrified"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/HediffDef/comps/li/batteriesToAffect</xpath>
+      <value>
+        <li>WallmountedBattery</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>
