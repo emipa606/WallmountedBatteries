@@ -76,14 +76,14 @@ public class Building_WallmountedBattery : Building
     }
 
 
-    public override void Draw()
+    protected override void DrawAt(Vector3 drawLoc, bool flip = false)
     {
-        base.Draw();
+        base.DrawAt(drawLoc, flip);
         var currentRotation = Rotation.AsInt;
         var comp = GetComp<CompPowerBattery>();
 
         var r = default(GenDraw.FillableBarRequest);
-        r.center = DrawPos;
+        r.center = drawLoc;
 
         const float offsetFromCenter = 0.3f;
         const float northOffset = 0.16f;
