@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: wallmounted battery -->
+  <WallmountedBattery.label>wallmounted battery</WallmountedBattery.label>
+  <!-- EN: Battery mountable on walls. Its casing allows it to be placed on the outside of a wall with no damage from the elements. Not that bad to look at either. -->
+  <WallmountedBattery.description>Battery mountable on walls. Its casing allows it to be placed on the outside of a wall with no damage from the elements. Not that bad to look at either.</WallmountedBattery.description>
+</LanguageData>

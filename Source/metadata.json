@@ -2,5 +2,15 @@
   "Continued": false,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 6987,
+  "LinesOfXML": 2556,
+  "CodeBaseSize": 64,
+  "LastXmlCleaning": "2025-07-16T21:23:15.8388637+02:00",
+  "SocialImageSet": true,
+  "FundingSet": true,
+  "SearchTags": " compact energy storage"
 }

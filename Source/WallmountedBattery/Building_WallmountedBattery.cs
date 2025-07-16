@@ -12,10 +12,10 @@ public class Building_WallmountedBattery : Building
     private const float EnergyToLoseWhenExplode = 200f;
     private const float ExplodeChancePerDamage = 0.05f;
 
-    private static readonly Material BatteryBarFilledMat =
+    private static readonly Material batteryBarFilledMat =
         SolidColorMaterials.SimpleSolidColorMaterial(new Color(0.9f, 0.85f, 0.2f));
 
-    private static readonly Material BatteryBarUnfilledMat =
+    private static readonly Material batteryBarUnfilledMat =
         SolidColorMaterials.SimpleSolidColorMaterial(new Color(0.3f, 0.3f, 0.3f));
 
     private int ticksToExplode;
@@ -27,7 +27,7 @@ public class Building_WallmountedBattery : Building
         Scribe_Values.Look(ref ticksToExplode, "ticksToExplode");
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (ticksToExplode <= 0)
@@ -119,12 +119,12 @@ public class Building_WallmountedBattery : Building
 
         r.margin = 0.02f;
         r.fillPercent = comp.StoredEnergy / comp.Props.storedEnergyMax;
-        r.filledMat = BatteryBarFilledMat;
-        r.unfilledMat = BatteryBarUnfilledMat;
-        DrawFillableBarVerbatim(r);
+        r.filledMat = batteryBarFilledMat;
+        r.unfilledMat = batteryBarUnfilledMat;
+        drawFillableBarVerbatim(r);
     }
 
-    private static void DrawFillableBarVerbatim(GenDraw.FillableBarRequest r)
+    private static void drawFillableBarVerbatim(GenDraw.FillableBarRequest r)
     {
         var vector = r.preRotationOffset.RotatedBy(r.rotation.AsAngle);
         r.center += new Vector3(vector.x, 0f, vector.y);
