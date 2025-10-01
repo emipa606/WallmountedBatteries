@@ -12,7 +12,7 @@ public class WallmountedBattery_PlaceWorker : PlaceWorker
 
         var support = c.GetEdifice(map);
         if (support?.def?.graphicData == null ||
-            (support.def.graphicData.linkFlags & (LinkFlags.Rock | LinkFlags.Wall)) == 0)
+            (support.def.graphicData.linkFlags & (LinkFlags.Rock | LinkFlags.Wall | LinkFlags.BurrowWall)) == 0)
         {
             return "WMB.onsupport".Translate();
         }

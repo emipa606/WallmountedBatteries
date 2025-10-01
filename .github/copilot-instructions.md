@@ -1,41 +1,34 @@
-# .github/copilot-instructions.md
+# Copilot Instructions for Wallmounted Battery Mod
 
-## RimWorld Modding Project: WallmountedBattery
+## Mod Overview and Purpose
+The **Wallmounted Battery** mod for RimWorld introduces a new compact energy storage option that can be installed on walls. This battery is designed to conserve space with half the size and capacity of a normal battery, making it ideal for cramped or minimalist bases. The battery is encased in a durable shell, providing resistance to environmental factors like rain, while maintaining a neutral aesthetic that fits into most base designs seamlessly.
 
-### Mod Overview and Purpose
+## Key Features and Systems
+- **Wall-Mountable Battery**: A unique battery that can be placed on walls, optimizing space usage.
+- **Environment Resistance**: The outer casing protects the battery from rain, ensuring durability.
+- **Compact Design**: Occupies half the space, with a proportionately reduced capacity compared to regular batteries, providing flexibility in design.
 
-The WallmountedBattery mod adds a unique building to RimWorld: a battery that can be mounted on walls. This innovative design allows players to make efficient use of space, enhancing gameplay by providing greater flexibility in base design and energy management.
+## Coding Patterns and Conventions
+- **Class Definitions**: The project uses clearly defined public classes for each functional component.
+- **Naming Conventions**: Follow C# naming conventions by using PascalCase for classes (`Building_WallmountedBattery`, `WallmountedBattery_PlaceWorker`) and camelCase for methods and local variables.
+- **Method Structure**: Even though the example provided only lists one method (`StartWickSustainer`), ensure methods are concise and responsible for single, clear tasks.
 
-### Key Features and Systems
+## XML Integration
+- **Defining the Battery**: Use XML to define the new battery building, specifying its key properties such as size, power capacity, and relevant textures or resources.
+- **PlaceWorker**: XML entries should reference `WallmountedBattery_PlaceWorker` to ensure that placement rules (such as wall-only mounting) are enforced.
 
-- **Wall-mounted Battery Building**: The central feature of this mod is the `Building_WallmountedBattery`, a special architecture piece that integrates with existing walls.
-- **Space Efficiency**: Players can utilize wall space effectively, allowing for more compact and organized base layouts.
-- **Custom PlaceWorker**: The `WallmountedBattery_PlaceWorker` class ensures that the battery can only be placed on walls, maintaining game balance and immersion.
+## Harmony Patching
+- **Purpose**: Harmony patches can be used to modify the base game’s methods to support new functionalities needed by the mod, if required.
+- **Application**: Ensure that the Harmony patches do not disrupt core game mechanics unless necessary. Patches should be targeted and reversible.
 
-### Coding Patterns and Conventions
+## Suggestions for Copilot
+- **Method Auto-Complete**: Suggest completions for partially written methods and class instantiations, particularly focusing on energy management features.
+- **Pattern Recognition**: Automatically detect and suggest common patterns in RimWorld mods, such as XML definition structures or standard method patterns in building functionality.
+- **Error Detection**: Help identify potential errors related to wall placement logic or power storage mechanics through automated checks.
+- **Optimization Hacks**: Suggest optimized patterns for handling asynchronous operations related to energy management and state changes during gameplay.
+- **Code Comments**: Encourage developers to use comments to clarify complex logic or mod-specific behaviors, enhancing readability and maintainability.
 
-- **Class Naming**: Classes are named using PascalCase, reflecting their functionality clearly (e.g., `Building_WallmountedBattery`, `WallmountedBattery_PlaceWorker`).
-- **Method Naming**: Methods also use PascalCase and typically start with a verb to indicate action, such as `StartWickSustainer`.
-- **Access Modifiers**: Leverage appropriate access levels (`public`, `private`) to encapsulate functionality and prevent unintended access.
+Be sure to leverage Copilot’s capabilities to streamline code writing and to maintain a high level of code quality by adhering to these guidelines.
 
-### XML Integration
 
-In RimWorld modding, XML files define much of the game's data, such as items, buildings, and recipes. Although the current summary doesn't specify XML files, typical XML integration points for a building mod would include:
-
-- **Defs Folder**: XML files that define the `ThingDef` for `Building_WallmountedBattery`.
-- **PlaceWorker Requirements**: XML configurations to ensure the battery adheres to placement rules (e.g., must be placed adjacent to a wall).
-
-### Harmony Patching
-
-- **Purpose**: Harmony is used to modify existing game behavior without altering original game files, ensuring compatibility across different mods.
-- **Patch Example**: If there were game methods to override or enhance, Harmony patches would be applied to relevant methods to customize behavior, such as changing how power is drawn or stored by the battery.
-
-### Suggestions for Copilot
-
-To effectively use GitHub Copilot in this project:
-
-- **Contextual Suggestions**: When writing new C# methods or handling XML configuration, invoke Copilot for suggestions by starting with descriptive comments or method signatures.
-- **Code Completion**: Utilize Copilot for completing repetitive structures, such as property definitions or XML nodes.
-- **Debugging Assistance**: Take advantage of Copilot's ability to suggest potential fixes or optimizations for existing code, particularly in complex systems like Harmony patches or PlaceWorker logic.
-
-By following these guidelines and leveraging Copilot, developers can efficiently extend the functionality of the WallmountedBattery mod while maintaining high-quality code structure and enhancing player experience in RimWorld.
+This document should guide developers using GitHub Copilot on how to effectively work on the Wallmounted Battery mod for RimWorld, ensuring their code is structured, integrated, and efficient.

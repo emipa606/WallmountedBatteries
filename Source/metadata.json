@@ -6,10 +6,10 @@
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 6987,
+  "LinesOfCode": 7010,
   "LinesOfXML": 2556,
-  "CodeBaseSize": 64,
-  "LastXmlCleaning": "2025-07-16T21:23:15.8388637+02:00",
+  "CodeBaseSize": 63,
+  "LastXmlCleaning": "2025-10-01T19:32:50.9986955+02:00",
   "SocialImageSet": true,
   "FundingSet": true,
   "SearchTags": " compact energy storage"
