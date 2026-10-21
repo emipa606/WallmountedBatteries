@@ -1,18 +1,18 @@
 # [Wallmounted Battery](https://steamcommunity.com/sharedfiles/filedetails/?id=2514057480)
 
-![Image](https://i.imgur.com/iCj5o7O.png)
+![Image](https://img.litet.net/logos/Self-Info.png)
 
 Adds a small battery mountable on walls. 
 Its outer-casing makes it resistant to rain and neutral to look at.
 Half the size and capacity of a normal battery.
 
-![Image](https://i.imgur.com/Ds0rBAD.png)
+![Image](https://img.litet.net/logos/Self-SupportAndDonations.png)
 
 Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my [Wishlist](https://store.steampowered.com/wishlist/id/Mlie) or buy me a cup of tea.
 
-[![Image](https://i.imgur.com/VWG0yff.png)](https://ko-fi.com/G2G55DDYD)
+[![Image](https://img.litet.net/logos/Kofi-Small.png)](https://ko-fi.com/G2G55DDYD)
 
-![Image](https://i.imgur.com/5xwDG6H.png)
+![Image](https://img.litet.net/5xwDG6H.png)
 
 
 
@@ -26,7 +26,7 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 
 
 
-![Image](https://i.postimg.cc/cC6mj7Y4/Self-Reporting-Issues.png)
+![Image](https://img.litet.net/logos/Self-ReportingIssues.png)
 
 
 
@@ -40,4 +40,4 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/WallmountedBatteries?label=latest%20version&style=plastic&labelColor=0070cd&color=white)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2514057480) | tags:  compact energy storage
+[![Image](https://img.shields.io/github/v/release/emipa606/WallmountedBatteries?label=latest%20version&style=plastic&labelColor=0070cd&color=white)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2514057480) | 1.6, Mod, 1.5, 1.2, 1.3, 1.4, 1.1
